@@ -1,0 +1,559 @@
+
+@media screen and (max-width: 1027px){
+    header .menu-desktop, header .btn-contato{
+        display: none;
+    }
+
+    header .btn-menu-mob{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 831px){
+    /* Responsiv da hero*/
+    section.hero-site{
+        margin-top: -5%;
+    }
+    
+    .hero-site{
+        font-size: 40px;
+    }
+    
+    .hero-site .txt-hero{
+        font-size: 25px;
+        font-weight: 300;
+        margin: 20px;
+    }
+    
+    .hero-site .txt-hero
+    
+    .img-itens img {
+        width: 350px;
+        height: auto;
+        margin-bottom: 45px; 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 250px;
+    }
+
+    header{
+        width: 100%;
+        padding: 20px 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+    
+        transition: .2s;
+    }
+
+    /* Estilo das vantagens */
+/* 
+/* .titulo{ 
+        font-size: 40px;
+        color:#fff;
+        text-align: center;
+        font-size: 5em;
+        padding: 60px 0;
+        margin-top: 5px;
+    } */
+
+    /* QUEM SOMOS */
+
+
+
+    /* Estilo do hero */
+
+    section.hero-site {
+        height: 142vh; /* Altura total da viewport */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: #ffffff;
+        margin-top: -40%;
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    .hero-site .txt-hero{
+        font-size: 20px;
+        font-weight: 300;
+        margin: 20px;
+        color: #000000;
+        justify-content: center;
+    }
+
+    
+    .hero-site .tst-hero{
+        font-size: 18px;
+        font-weight: 300;
+        margin: 20px;
+        color: #fff;
+    }
+    
+    .hero-site .txt-hero p{
+        margin-top: 10px;
+    }
+
+    .hero-site .img-itens iframe{
+        max-width: 49%;
+        height: auto; /* Mantém a proporção da imagem */
+        display: block; /* Remove espaços extras ao redor da imagem */
+        margin: 0 auto; /* Centraliza a imagem */
+    }
+
+
+    /* Estrutura */
+    section.estrutura{
+        height: 45vh; /* Altura total da viewport */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: #000000;
+        margin-top: -5%;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .estrutura .tst-hero{
+        font-size: 15px;
+        font-weight: 300;
+        margin: 20px;
+        color: #ffffff;
+        justify-content: center;
+        padding-top: 2%;
+    }
+
+
+    .hero-site .tst-hero {
+        font-size: 15px;
+        font-weight: 300;
+        margin: 20px;
+        color: #000000;
+
+    }
+
+    .estrutura .img-itens img {
+        max-width: 100%;
+        height: auto;
+        margin-left: 20px; /* Mantém a proporção da imagem */
+        display: block; /* Remove espaços extras ao redor da imagem */
+        margin: 0 auto; /* Centraliza a imagem */
+    }
+
+
+    /* Por trás das câmeras */
+    section.equipe{
+        height: 70vh; /* Altura total da viewport */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: #ffffff;
+        margin-top: 2%;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .equipe .tdt-hero{
+        font-size: 20px;
+        font-weight: 300;
+        margin: 20px;
+        color: #000000;
+        justify-content: center;
+    }
+
+    .equipe .img-itens img {
+        max-width: 90%;
+        height: auto; /* Mantém a proporção da imagem */
+        display: block; /* Remove espaços extras ao redor da imagem */
+        margin: 0 auto; /* Centraliza a imagem */
+    }
+
+
+
+
+    /* Visão */
+    section.visao{
+        height: 85vh; /* Altura total da viewport */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: #000000;
+        margin-top: -6%;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .visao .tpt-hero{
+        font-size: 20px;
+        font-weight: 300;
+        margin: 20px;
+        color: #ffffff;
+        margin-left: 30px;
+        margin-right: 40px;
+        padding: 30px 0;
+    }
+
+    /* Estilização das imagens */
+    .visao .img-itens img {
+        max-width: 200%;
+        height: auto; /* Mantém a proporção da imagem */
+        display: block; /* Remove espaços extras ao redor da imagem */
+        margin-left: -70px;
+    }
+
+    /* PRODUÇÕES */
+
+    section.vantagens{
+        padding: 80px 0;
+        margin-top: -60%;
+        margin-right: 5%;
+        margin-left: 5%;
+    
+    }
+
+    .vantagens .itens-containe .img-itens img{
+        width: 100%;
+    }
+    
+    .vantagens .itens-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10%;
+        margin-bottom: 60px;
+
+        flex-direction: column;
+    }
+    
+    .vantagens .itens-container .titulo h5{
+        color: #fff;
+    }
+    
+    .vantagens .itens-container .txt-itens h3{
+        font-size: 30px;
+        line-height: 50px;
+        color: #fff;
+        margin-bottom: 20px;
+        margin-left: 5%;
+        
+    }
+    
+    .vantagens .itens-container .txt-itens p{
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .vantagens .img-itens img {
+        max-width: 100%;
+        height: auto; /* Mantém a proporção da imagem */
+        display: block; /* Remove espaços extras ao redor da imagem */
+        margin: 0 auto; /* Centraliza a imagem */
+    }
+
+    /* LANÇAMENTOS */
+
+    /* Estilo do hero */
+    section.hero-sites{
+        height: 100vh; 
+        /* para experiência do usuário */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 7%;
+        color: #000000;
+        margin-top: 30%;
+        
+    }
+
+    .hero-sites{
+        font-size: 10px;
+        text-align: center;
+        
+    }
+
+    .hero-sites .txt-heros{
+        font-size: 20px;
+        font-weight: 300;
+        margin: 20px;
+        color: #fff;
+    }
+
+    .hero-sites .txt-heros p{
+        margin-top: 60px;
+    }
+
+    .img-itens img {
+        width: 750px;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 300px;
+    }
+
+    .hero-sites video{
+        margin-top: -2%;
+    }
+
+    .hero-sites .div-video {
+        width: 30px;
+        height: 50%; /* Mantém a proporção da imagem */
+        display: block; /* Remove espaços extras ao redor da imagem */
+        margin-left: 5%;
+    }
+
+    /* Inicial */
+
+    /* Estilo do hero */
+    
+    section.hero-sitex{
+        height: 85vh; 
+        /* para experiência do usuário */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 40%;
+        color: #000000;
+        margin-top: 30%;
+    }
+
+    .hero-sitex .interfacex {
+        display: flex;
+        flex-direction: column; /* Organiza itens verticalmente */
+        justify-content: center; /* Centraliza verticalmente */
+        align-items: center; /* Centraliza horizontalmente */
+        height: 100%; /* Ocupa toda a altura */
+        text-align: center; /* Centraliza o texto */
+        margin-top: 30%; /* Remove o deslocamento */
+        background: #000;
+    }
+
+
+    .hero-sitex .interfacex .txt-herox .img-itensx img {
+        max-width: 1000px; /* Garante responsividade */
+        height: auto; /* Proporções automáticas */
+        margin: 0 auto; /* Centraliza horizontalmente */
+        margin-bottom: 20px;
+        display: block; /* Remove comportamentos inesperados do flexbox */
+    }
+
+
+    .hero-sitex .interfacex .txt-herox {
+        display: flex;
+        flex-direction: column; /* Garante que os itens sejam empilhados */
+        justify-content: center; /* Centraliza o conteúdo da seção */
+        align-items: center; /* Centraliza os itens horizontalmente */
+    }
+
+    .hero-sitx .interfacex{
+        display:flex;
+        align-items: center;
+        height: 100%;
+    }
+
+    .hero-sitex .txt-herox h1{
+        font-size: 10px;
+        line-height: 70%;
+        font-weight: 200;
+        
+    }
+
+
+    .hero-sitex .txt-herox{
+        color: #fff;
+    }
+
+
+    .hero-sitex .txt-herox p {
+        font-size: 20px;
+        font-weight: 300;
+        margin-top: 2%;
+        margin: 45px 0;
+        color: #fff;
+        margin-bottom: 0%; /* Texto branco */
+    }
+
+    .hero-sitex .txt-herox p span {
+        display: block;
+        color: #fff; /* Texto branco */
+    }
+
+    .hero-sitex button{
+        width: 220px;
+        height: 60px;
+        font-size: 20px;
+    }
+
+    .hero-sitex .interfacex .txt-herox .img-itensx img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 45px; 
+        align-items: center;
+    }
+ 
+
+    /* Estilo Formulário */
+
+    .formulario{ 
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .formulario .centralizado{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background: #000;
+
+    }
+
+    section.formulario{ 
+        height: 90vh;
+        width: 70%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .formulario .centralizado{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background: #000;
+    
+    }
+    
+    .formulario{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding:10px 45px;
+        background: #000;
+        width: 500px;
+       
+    }
+    
+    .formulario h2{
+        color: #f5f5f5;
+        font-size: 2.5rem;
+        margin: 2rem;
+    }
+    
+    .formulario form{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    form label{
+        color:#f5f5f5;
+        font-size:17px;
+        margin-bottom: 4px;
+    }
+    
+    form input{
+        padding: 15px;
+        outline: none;
+        border: 0;
+        margin-bottom: 20px;
+        font-size: 15px;
+        transition: all 0.5s;
+    }
+    
+    form input:focus{
+        border-radius: 16px;
+    }
+    
+    form textarea {
+        padding: 10px;
+        outline: none;
+        border: 0;
+        font-size: 15px;
+        margin-bottom: 30px;
+        border-radius: 4px; /* Inicial */
+        transition: all 0.5s;
+    }
+    
+    form textarea:focus {
+        border-radius: 16px; /* Alterado ao focar */
+    }
+    
+    
+    form button{
+        padding: 15px;
+        cursor: pointer;
+        font-size: 16px;
+        background: transparent;
+        border: 2px solid #f5f5f5;
+        color:#f5f5f5;
+        transition: all 1s;
+        margin-bottom: 20px;
+    }
+    
+    form button:hover{
+        background: #f5f5f5;
+        color:#000;
+        border-radius: 16px;
+    }
+    
+    
+    /* Estilo rodapé */
+    footer{
+        background-color: #793799;
+        width: 100%;
+        text-align: center;
+        padding: 30px 0;
+    }
+    
+    footer .top-footer button{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        background-color: transparent;
+        color: #ffffff;
+        font-size: 24px;
+        cursor: pointer;
+        margin: 0 10px;
+        transition: 0.5s;
+    }
+    
+    footer .top-footer button:hover{
+        background-color: #ffffff;
+        color: #793799;
+    }
+    
+    footer .middle-footer{
+        margin: 20px 0;
+    }
+    
+    footer .middle-footer a{
+        color: #fff;
+        margin: 0 15px;
+    }
+    
+    footer .bottom-footer{
+        border-top: 2px solid #fff
+    }
+    
+    footer .bottom-footer p{
+        color:#fff;
+        margin: 10px;
+    }
+    
+    
+
+    
+
+}  

@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "EB Garamond", serif;
+}
+
+body{
+    background-color: #000000
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header .btn-contato button, .hero-site button, .hoteis button{
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+
+header .btn-contato button:hover, .hero-site button:hover, .hoteis button:hover{
+    background-color: #fff;
+    color: #793799;
+}   
+
+/*  Estilo Header */
+header{
+    width: 100%;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    transition: .2s;
+}
+
+
+header .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img{
+    max-width: 60px;
+    align-items: center;
+    margin-top: 20%;
+}
+
+
+/* Estilo do menu dinâmico */
+header .logo img.logo-branca{
+    display: none;
+}
+
+header.rolar{
+    background-color: #793799;
+    padding: 15px 0;
+}
+
+header.rolar .menu-desktop nav ul li a{
+    color: #ffffff;
+}
+
+header.rolar .btn-contato button{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+header.rolar .btn-contato button:hover{
+    background-color: #ffffff;
+    color:#793799;
+}
+
+header.rolar .logo .logo-roxa{
+    display: none;
+}
+header.rolar .logo .logo-branca{
+    display: block;
+}
+
+/* ------------------ */
+header .menu-desktop nav ul{
+    list-style-type: none;
+
+}
+
+header .menu-desktop nav ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header .menu-desktop nav ul li a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+.menu-desktop nav a:hover{
+    transform: scale(1.05);
+}
+
+header .btn-contato button{
+    width: 140px;
+    height: 50px;
+}
+
+/* Estilo do hero */
+
+section.hero-site {
+    height: 170vh; /* Altura total da viewport */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+    margin-top: -2%;
+    text-align: center;
+    font-size: 40px;
+}
+  
+.hero-site .txt-hero {
+    font-size: 40px;
+    font-weight: 300;
+    margin: 20px;
+    color: #000000;
+}
+  
+
+/* Estrutura */
+
+
+
+
+/* Estilização das imagens */
+.img-itens img {
+    width: 150%; /* Ajusta a largura para 90% do contêiner */
+    max-width: 1288px; /* Limita a largura máxima */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem horizontalmente */
+    margin-bottom: 5%;
+}
+  
+

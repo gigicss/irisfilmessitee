@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "EB Garamond", serif;
+}
+
+body{
+    background-color: #000000
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header .btn-contato button, .hero-site button, .hoteis button{
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+
+header .btn-contato button:hover, .hero-site button:hover, .hoteis button:hover{
+    background-color: #fff;
+    color: #793799;
+}   
+
+/*  Estilo Header */
+header{
+    width: 100%;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    transition: .2s;
+}
+
+
+header .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img{
+    max-width: 60px;
+    align-items: center;
+    margin-top: 20%;
+}
+
+
+/* Estilo do menu dinâmico */
+header .logo img.logo-branca{
+    display: none;
+}
+
+header.rolar{
+    background-color: #793799;
+    padding: 15px 0;
+}
+
+header.rolar .menu-desktop nav ul li a{
+    color: #ffffff;
+}
+
+header.rolar .btn-contato button{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+header.rolar .btn-contato button:hover{
+    background-color: #ffffff;
+    color:#793799;
+}
+
+header.rolar .logo .logo-roxa{
+    display: none;
+}
+header.rolar .logo .logo-branca{
+    display: block;
+}
+
+/* ------------------ */
+header .menu-desktop nav ul{
+    list-style-type: none;
+
+}
+
+header .menu-desktop nav ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header .menu-desktop nav ul li a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+.menu-desktop nav a:hover{
+    transform: scale(1.05);
+}
+
+header .btn-contato button{
+    width: 140px;
+    height: 50px;
+}
+
+/* estilo do  btn menu mob !*/
+
+header .btn-menu-mob{
+    display: none;
+    position: relative;
+    z-index: 9999999999999999999;
+}
+
+header .btn-menu-mob div{
+    background-color: #793799;
+    height: 3px;
+    margin: 10px 0;
+    transition: .2s;
+}
+
+
+header .btn-menu-mob .line-menu-mob-1{
+    width: 30px;
+}
+
+header .btn-menu-mob .line-menu-mob-2{
+    width: 20px;
+}
+
+header.rolar .btn-menu-mob div{
+    background-color: #fff;
+}
+
+header .btn-menu-mob .line-menu-mob-1.ativo1{
+    transform: rotate(45deg) translate(30%);
+}
+
+header .btn-menu-mob .line-menu-mob-2.ativo2{
+    transform: rotate(-45deg) translate(30%);
+    width: 30px;
+}
+
+/* estilo menu mob !*/
+
+header .menu-mobile{
+    width: 0;
+    height: 0;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    overflow: hidden;
+    transition: .4s;
+
+}
+
+header .menu-mobile nav{
+    width: 100%;
+}
+
+header .menu-mobile nav ul{
+    list-style-type: none;
+}
+
+header .menu-mobile nav a{
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 0;
+    display: block;
+    transition: .8s;
+}
+
+header .menu-mobile nav a:hover{
+    background-color: #ffffff;
+    color: #000;
+    box-shadow: 0 0 20px #fff;
+}
+
+header .menu-mobile.abrir{
+    width: 100%;
+    height: 100vh;
+}
+
+body.no-overflow{
+    overflow: hidden;
+}
+
+section.formulario{ 
+    height: 80vh;
+    width: 30%;
+    margin: 0;
+    margin-top:5%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formulario .centralizado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #000;
+
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:10px 45px;
+    background: #000;
+    width: 500px;
+   
+}
+
+.formulario h2{
+    color: #f5f5f5;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+.formulario form{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label{
+    color:#f5f5f5;
+    font-size:17px;
+    margin-bottom: 4px;
+}
+
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+form input:focus{
+    border-radius: 16px;
+}
+
+form textarea {
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    border-radius: 4px; /* Inicial */
+    transition: all 0.5s;
+}
+
+form textarea:focus {
+    border-radius: 16px; /* Alterado ao focar */
+}
+
+
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #f5f5f5;
+    color:#f5f5f5;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+
+form button:hover{
+    background: #f5f5f5;
+    color:#000;
+    border-radius: 16px;
+}
+
+/* Estilo rodapé */
+footer{
+    background-color: #793799;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer .top-footer button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+
+footer .top-footer button:hover{
+    background-color: #ffffff;
+    color: #793799;
+}
+
+footer .middle-footer{
+    margin: 20px 0;
+}
+
+footer .middle-footer a{
+    color: #fff;
+    margin: 0 15px;
+}
+
+footer .bottom-footer{
+    border-top: 2px solid #fff
+}
+
+footer .bottom-footer p{
+    color:#fff;
+    margin: 10px;
+}

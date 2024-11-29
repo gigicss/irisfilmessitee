@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" class="">
+    <link rel="stylesheet" href="responsive.css" media="screen">
+    
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bentham&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Geist+Mono:wght@100..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <!--FIM-->
+
+    <!--Bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--Bootstrap icons-->
+
+
+    <!--Scripts de Js-->
+    <script src="js/menu.js" defer></script>
+    <script src="js/btn-menu-mob.js" defer></script>
+
+
+    <title>Iris Filmes</title>
+
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="swiper-bundle.min.css">
+
+</head>
+<body>
+    
+    <header id="header">
+
+        <div class="interface">
+
+            <section class="logo">
+                <img class="logo-branca" src="imagens/logosite-removebg-preview ingual.png" alt="Logotipo">
+                <img class="logo-roxa" src="imagens/flor_maior4-removebg-preview (1) ingual.png" alt="Logotipo">
+                
+            </section>
+
+            <section class="menu-desktop">
+                <nav>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="quemsomos.html">Quem somos?</a></li>
+                        <li><a href="produções.html">Produções</a></li>
+                        <li><a href="lançamentos.html">Lançamentos</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="btn-contato">
+                <a href="btn-contato.html">
+                    <button>Contato</button>
+                </a>
+            </section>
+
+            <div class="btn-menu-mob" id="btn-menu-mob">
+                <div class="line-menu-mob-1"></div>
+                <div class="line-menu-mob-2"></div>
+            </div>
+
+            <section class="menu-mobile" id="menu-mobile" >
+                <nav>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="quemsomos.html">Quem somos?</a></li>
+                        <li><a href="produções.html">Produções</a></li>
+                        <li><a href="lançamentos.html">Lançamentos</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+
+        </div>
+
+
+    </header>
+
+    <section class="hero-sitex">
+
+        <div class="interfacex">
+
+            <div class="txt-herox">
+
+                <div class="img-itensx">
+                    <img src="imagens/Iris logo roxa.png" style="width:100%"></img>
+                </div>
+
+                <p>“Um mergulho no universo onírico e 
+                    <span>nas infinitas possibilidades que as lentes permitem,</span><span>penetrando a visão além de nossas íris oculares.”</span></p>
+    
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="slider">
+        
+        <div class="slideshow-container">
+            <div class="Slides">
+                <img src="imagens/aflorestaslide.png" style="width:100%">
+            </div>
+
+            <div class="Slides">
+                <img src="imagens/linhasdesolidão.png" style="width:100%">
+            </div>
+
+            <div class="Slides">
+                <img src="imagens/teladossonhos.png" style="width:100%">
+            </div>
+
+            <div class="Slides">
+                <img src="imagens/esenaoacordarmos.png" style="width:100%">
+            </div>
+
+            <div class="Slides">
+                <img src="imagens/otempoquedeixamos.png" style="width:100%">
+            </div>
+
+            <div class="Slides">
+                <img src="imagens/teladossonhos.png" style="width:100%">
+            </div>
+
+        
+            <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+        </div>
+
+    </section>
+        
+    <section class="hoteis">
+
+        <div class="interface">
+
+            <a href="lançamentos.html">
+                <button>Assista a nossa última produção</button>
+            </a>
+
+        </div>
+
+        <div class="overlay"></div>
+
+    </section>
+
+    <section class="formulario">
+        
+        <h2> Fale Conosco</h2>
+
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <label>Nome</label>
+            <input type="text" name="name" placeholder="Digite se nome" autocomplete="off">
+            <label>Email</label>
+            <input type="email" nome="email" placeholder="Digite seu email" autocomplete="off">
+            <label>Mensagem</label>
+            <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+            <button type="submit">Enviar</button>
+
+            <input type="hidden" name="accessKey" value="ed649ee5-e526-4ab8-90db-38de7f3f3d99">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/obrigado.html">
+        </form>
+
+    </section>
+
+    <footer>
+        <div class="interface">
+            <section class="top-footer">
+
+                <a href="https://www.instagram.com/irisgravadora/"><button><i class="bi bi-instagram"></i></button></a>
+                <a href="https://www.youtube.com/@IrisFilms-n8z"><button><i class="bi bi-youtube"></i></button></a>
+
+            </section>
+
+            <section class="middle-footer">
+                <a href="#">Suporte</a>
+                <a href="#">Informações</a>
+                <a href="#">Marketing</a>
+            </section>
+
+            <section class="bottom-footer">
+                <p>Iris Films 2024 &copy; Todos os direiros reservados</p>
+            </section>
+        </div>
+    </footer>
+
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
